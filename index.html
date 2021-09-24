@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Verdana, sans-serif;
+        }
+        .header-container{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            background-color: #f7f7f8
+        }
+        .site-title {
+            width: 80%;
+            align-items: right;
+        }
+        .site-nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: right;
+            font-weight: bold;
+        }
+        .logo-container {
+            width: 20%;
+            text-align: right;
+            justify-content: space-around;
+        }
+        .logo-container__site-logo {
+            height: 200px;
+            align-items: center;
+            width: 100%;
+        }
+        .banner>img {
+            width: 100%;
+            height: 450px;
+            max-width: 2000px;
+            object-fit: cover;
+        }
+        .seccion-equipo {
+            display: flex;
+            margin-bottom: 100px;
+        }
+
+        .seccion-pie {
+            background-color: #25294f;
+            height: 200px;
+            display: flex;
+            color: white;
+            justify-content: space-evenly;
+        }
+        .equipo-info{
+            width: 33%;
+            padding: 15px;
+            background-color: #f7f7f8
+        }
+        .equipo-info-imagen{
+            display: block;
+            width: 80%;
+            height: 250px;
+            margin-right: auto;
+            margin-left: auto;
+            align-items: center;
+
+
+            background-color: #f7f7f8
+        }
+    </style>
+
+<!-- inicio encabezado del sitio -->
+    <header>
+        <!-- menu -->
+        <div class="header-container">
+                       
+            <div class="site-title">
+                <h1>LICEO PEDAGÓGICO MONTE SANTO</h1>
+                <h2>“Educando con amor, creciendo con valores”</h2>
+            </div>
+            <div class="logo-container">
+                <img class="logo-container__site-logo" src="./escudo.png" alt="Escudo liceo pedagógico">
+            </div>
+                <ul class="site-nav">
+                <a href="#inicio">Inicio</a>
+                <a href="mision.html">Misión</a>
+                <a href="vision.html">Visión</a>
+                <a href="">Noticias</a>
+                <a href="#equipo">Ingresar</a>
+                </ul>
+            </div>
+            <div class="banner">
+            <img src="./banner.jpg" alt="A banner image">
+       </div>          
+    </header>
+
+    <main>
+    <div>
+        <h1>YO SOY </h1>
+        <!-- inicio sección de equipo/usuarios -->
+        <section id="equipo" class="seccion-equipo">
+
+            <article class="equipo-info">
+                <img class="equipo-info-imagen" src="./estudiante.jpg" alt="">
+                <h2>Estudiante</h2>
+                <form>
+                    <a href="loginestudiante.html"<p><input type="button" value="Vamos!" onclick="verificar()"></p></a>
+                </form>
+            </article>
+
+            <article class="equipo-info">
+                <img class="equipo-info-imagen" src="./profesor.jpg" alt="">
+                <h2 class="equipo-info-title">Docente</h2>
+                <form>
+                    <a href="loginprofesor.html"<p><input type="button" value="Vamos!" onclick="verificar()"></p></a>
+                </form>
+            </article>
+
+            <article class="equipo-info">
+                <img class="equipo-info-imagen" src="./directivo.jpg" alt="">
+                <h2 class="equipo-info-title">Directivo</h2>
+                <form>
+                    <a href="logindirectivo.html"<p><input type="button" value="Vamos!" onclick="verificar()"></p></a>
+                </form>
+            </article>
+
+        </section>
+
+    </div>
+    </main>
+    <!-- Inicio pie de pagina-->
+
+    <div class="seccion-pie">
+        <article>
+            <h2>¡PONTE EN CONTACTO CON NOSOTROS!</h2>
+            <p>Facebook:Liceo Pedagógico Monte Santo</p>
+            <p>Télefonos: 3115041432- 3124330742</p>
+        </article>
+    </div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Verdana, sans-serif;
+        }
+        .header-container{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            background-color: #f7f7f8
+        }
+        .site-title {
+            width: 80%;
+            align-items: right;
+        }
+        .site-nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: right;
+            font-weight: bold;
+        }
+        .logo-container {
+            width: 20%;
+            text-align: right;
+            justify-content: space-around;
+        }
+        .logo-container__site-logo {
+            height: 200px;
+            align-items: center;
+            width: 100%;
+        }
+        .seccion-pie {
+            background-color: #25294f;
+            height: 200px;
+            display: flex;
+            color: white;
+            justify-content: space-evenly;
+        }
+        .mision{
+            padding:0px;
+            text-align: center;
+            width: 100%;
+        }
+        .mision>img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .inicio{
+            background-color: #e7fafc;
+            text-align: left;
+        }
+        .inicio>a{
+    background-color:#44c767;
+	border-radius:12px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:9px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+        }
+
+        .inicio>a:hover {
+	background-color:#5cbf2a;
+}
+.inicio>a :active {
+	position:relative;
+	top:1px;
+}
+    </style>
+   <!-- inicio encabezado del sitio -->
+    <header>
+        <!-- menu -->
+        <div class="header-container">
+            <div class="site-title">
+                <h1>LICEO PEDAGÓGICO MONTE SANTO</h1>
+                <h2>“Educando con amor, creciendo con valores”</h2>
+            </div>
+            <div class="logo-container">
+                <img class="logo-container__site-logo" src="./escudo.png" alt="Escudo liceo pedagógico">
+            </div>
+
+            <ul class="site-nav">
+                <a href="index.html">Inicio</a>
+                <a href="mision.html">Misión</a>
+                <a href="vision.html">Visión</a>
+                <a href="noticias.html">Noticias</a>
+                <a href="index.html#equipo">Ingresar</a>
+            </ul>
+
+        </div>        
+    </header>
+    <main>
+        <div class="mision">
+            <h3>MISIÓN</h3>
+            <img src="./mision.jpg" alt="mision">
+            <p class="mision-info-text">
+            El Liceo Pedagógico Monte Santo, centra su interés en la formación integral de niños, niñas y 
+            jóvenes, en su desarrollo personal y social a través de procesos pedagógicos coherentes con los
+            avances culturales, desarrollo productivo y acceso al conocimiento; que les permita mejorar sus
+            condiciones de vida y las de su entorno a partir de una educación inclusiva que rescata la práctica
+            de los valores, el amor a Dios, la comunicación, el trabajo en equipo y una actitud positiva.
+            </p>
+        </div>
+    </main>
+    <div class="seccion-pie">
+        <article>
+            <h2>¡PONTE EN CONTACTO CON NOSOTROS!</h2>
+            <p>Facebook : Liceo Pedagógico Monte Santo</p>
+            <p>Télefonos: 3115041432- 3124330742</p>
+        </article>
+</body>
+</html>
+
+
+
+   
+

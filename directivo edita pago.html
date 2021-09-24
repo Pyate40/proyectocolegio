@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Geneva, Verdana, sans-serif;
+        }
+        .header-container{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            background-color: #f7f7f8
+        }
+        .site-title {
+            width: 80%;
+            align-items: right;
+        }
+        .site-nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: right;
+            font-weight: bold;
+        }
+        .logo-container {
+            width: 20%;
+            text-align: right;
+            justify-content: space-around;
+        }
+        .logo-container__site-logo {
+            height: 200px;
+            align-items: center;
+            width: 100%;
+        }
+        .seccion-pie {
+            background-color: #25294f;
+            height: 200px;
+            display: flex;
+            color: white;
+            justify-content: space-evenly;
+        }
+        .depago{
+            background-color: #87dee4;
+            padding:0px;
+            text-align: center;
+            width: 100%;
+        }
+        .bienvenida{
+            background-color: #9fe6abcc;
+            padding: 1px;
+            text-align: left;
+            width: 30%;
+            margin-left:1060px;
+            margin-right:20px;
+            margin-top:10px;
+        }
+
+        /* clase main  contiene columnas y botones con estilo como las demás paginas de directivo por si se necesitan. De lo contrario quitar clase main y dejar formato de botones en la clase .depago */
+        .main {
+            column-count:2;
+        }
+        .main>a {
+            box-shadow: 3px 4px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+    width: 600px;
+      }
+        .main>a:hover {
+            background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+        }
+
+        .inicio{
+            background-color: #e7fafc;
+            text-align: left;
+        }
+        .inicio>a{
+    background-color:#44c767;
+	border-radius:12px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:9px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+        }
+      
+
+        .inicio>a:hover {
+	background-color:#5cbf2a;
+}
+.inicio>a :active {
+	position:relative;
+	top:1px;
+}
+
+       
+    </style>
+   <!-- inicio encabezado del sitio -->
+    <header>
+        <!-- menu -->
+        <div class="header-container">
+            <div class="site-title">
+                <h1>LICEO PEDAGÓGICO MONTE SANTO</h1>
+                <h2>“Educando con amor, creciendo con valores”</h2>
+            </div>
+            <div class="logo-container">
+                <img class="logo-container__site-logo" src="./escudo.png" alt="Escudo liceo pedagógico">
+            </div>
+            
+            <ul class="site-nav">
+                <a href="index.html">Inicio</a>
+                <a href="mision.html">Misión</a>
+                <a href="vision.html">Visión</a>
+                <a href="noticias.html">Noticias</a>
+                <a href="index.html#equipo">Ingresar</a>
+            </ul>
+        </div>        
+    </header>
+    <main>
+        <div class="depago">
+            <div class="bienvenida">
+                <H6>BIENVENIDO  CARGO   NOMBRE</H6>
+                  <!-- se debe enlazar a base de datos  para que se muestre el cargo y el nombre -->
+               </div>
+
+            <H1>ESTA PAGINA SE ENCUENTRA EN CONSTRUCCION</H1>
+               
+             
+            
+    <br>
+
+        </div>
+
+    </main>
+    
+    <div class="seccion-pie">
+        <article>
+            <h2>¡PONTE EN CONTACTO CON NOSOTROS!</h2>
+            <p>Facebook : Liceo Pedagógico Monte Santo</p>
+            <p>Télefonos: 3115041432- 3124330742</p>
+        </article>
+</body>
+</html>
